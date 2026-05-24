@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fresh Start - Servicios premium de limpieza profesional en hogares, oficinas y departamentos. Cotiza en línea al instante con nuestra paleta pastel relajante.">
+    <meta name="keywords" content="limpieza profesional, servicio de limpieza, fresh start, limpieza de casas, cotizador de limpieza, limpieza oficinas">
+    <meta name="author" content="Fresh Start">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Fresh Start | Servicios de Limpieza Premium e Interactiva">
+    <meta property="og:description" content="Espacios impecables, mentes en paz. Cotiza tu servicio de limpieza premium en segundos con nuestra calculadora en tiempo real.">
+    <meta property="og:image" content="assets/hero.png">
+
+    <title>Fresh Start | Servicios de Limpieza Profesional Premium</title>
+    
+    <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for beautiful pastel icons (using SVG embedded icons for speed and reliability, but including a fallback or standard icons) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABECERA GLASSMORPHISM -->
+    <header id="main-header" class="header">
+        <div class="header-container">
+            <a href="#" class="logo-container" id="logo-link">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="sparkle-svg">
+                        <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m11.32 11.32l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z"/>
+                    </svg>
+                </div>
+                <div class="logo-text-wrapper">
+                    <span class="logo-text">Fresh <span class="logo-highlight">Start</span></span>
+                    <span class="logo-subtext">Diana Ramirez</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#nosotros" class="nav-link">¿Por qué Fresh Start?</a></li>
+                    <li><a href="#cotizador" class="nav-link">Cotizador</a></li>
+                    <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#cotizador" class="btn btn-primary btn-sm btn-header">Cotizar Ya</a>
+                <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- SECCIÓN HÉROE -->
+        <section id="inicio" class="hero-section">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="sparkle-emoji">✨</span> El estándar más alto en limpieza
+                    </div>
+                    <h1 class="hero-title">Espacios impecables, <br><span class="gradient-text">mentes en paz</span>.</h1>
+                    <p class="hero-description">
+                        Transformamos tu hogar u oficina con un servicio de limpieza premium y productos eco-amigables. Descubre la tranquilidad de delegar tus tareas a profesionales de total confianza.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="#cotizador" class="btn btn-primary btn-lg">Calcular Presupuesto</a>
+                        <a href="#servicios" class="btn btn-secondary btn-lg">Explorar Planes</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">+1,800</span>
+                            <span class="stat-label">Hogares Limpios</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">4.9/5</span>
+                            <span class="stat-label">Valoración Media</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Garantizado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-card">
+                        <img src="assets/hero.png" alt="Sala de estar impecable y limpia de Fresh Start" class="hero-image" id="hero-img">
+                        <div class="floating-badge badge-top">
+                            <div class="badge-icon">🌿</div>
+                            <div class="badge-text">
+                                <strong>Productos Orgánicos</strong>
+                                <span>Seguro para niños y mascotas</span>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-bottom">
+                            <div class="badge-icon">🛡️</div>
+                            <div class="badge-text">
+                                <strong>Seguridad Certificada</strong>
+                                <span>Personal verificado</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SERVICIOS -->
+        <section id="servicios" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">NUESTROS PLANES</span>
+                    <h2 class="section-title">Elige el servicio perfecto para ti</h2>
+                    <p class="section-subtitle">
+                        Diseñamos soluciones personalizadas que se adaptan a tu ritmo de vida y presupuesto. Todo con el cuidado y delicadeza de Fresh Start.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Servicio 1: Express -->
+                    <div class="service-card" data-service="express">
+                        <div class="service-icon-wrapper icon-express">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="service-svg">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card-title">Limpieza Express</h3>
+                        <p class="service-card-desc">Ideal para el mantenimiento semanal rápido. Cubre superficies clave de forma impecable.</p>
+                        <ul class="service-features">
+                            <li><span class="check-icon">✓</span> Sacudido de polvo básico</li>
+                            <li><span class="check-icon">✓</span> Aspirado y trapeado de pisos</li>
+                            <li><span class="check-icon">✓</span> Limpieza superficial de cocina</li>
+                            <li><span class="check-icon">✓</span> Desinfección rápida de baños</li>
+                        </ul>
+                        <div class="service-pricing">
+                            <span class="price-from">Desde</span>
+                            <span class="price-amount">$45</span>
+                            <span class="price-unit">/ serv</span>
+                        </div>
+                        <button class="btn btn-outline btn-full select-service-btn" data-target-package="express">Seleccionar Plan</button>
+                    </div>
+
+                    <!-- Servicio 2: Profunda (Destacado) -->
+                    <div class="service-card featured" data-service="profunda">
+                        <div class="service-badge-popular">Más Solicitado ✨</div>
+                        <div class="service-icon-wrapper icon-deep">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="service-svg">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card-title">Limpieza Profunda</h3>
+                        <p class="service-card-desc">Una restauración completa y detallada de cada rincón. Recomendable para la primera visita.</p>
+                        <ul class="service-features">
+                            <li><span class="check-icon">✓</span> Limpieza profunda detrás de muebles</li>
+                            <li><span class="check-icon">✓</span> Desinfección extrema de baños y cocina</li>
+                            <li><span class="check-icon">✓</span> Limpieza de azulejos y juntas</li>
+                            <li><span class="check-icon">✓</span> Eliminación de grasa acumulada</li>
+                            <li><span class="check-icon">✓</span> Limpieza interna de campana extractora</li>
+                        </ul>
+                        <div class="service-pricing">
+                            <span class="price-from">Desde</span>
+                            <span class="price-amount">$85</span>
+                            <span class="price-unit">/ serv</span>
+                        </div>
+                        <button class="btn btn-primary btn-full select-service-btn" data-target-package="profunda">Seleccionar Plan</button>
+                    </div>
+
+                    <!-- Servicio 3: Mudanza -->
+                    <div class="service-card" data-service="mudanza">
+                        <div class="service-icon-wrapper icon-moving">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="service-svg">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/>
+                                <path d="M9 22V12h6v10"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card-title">Mudanza / Post-Obra</h3>
+                        <p class="service-card-desc">Preparación minuciosa de espacios vacíos para habitar. Remueve polvo fino y residuos difíciles.</p>
+                        <ul class="service-features">
+                            <li><span class="check-icon">✓</span> Limpieza minuciosa dentro de clósets</li>
+                            <li><span class="check-icon">✓</span> Retiro de polvo y yeso de obra</li>
+                            <li><span class="check-icon">✓</span> Lavado profundo de marcos e interruptores</li>
+                            <li><span class="check-icon">✓</span> Preparación lista para mudarse</li>
+                        </ul>
+                        <div class="service-pricing">
+                            <span class="price-from">Desde</span>
+                            <span class="price-amount">$120</span>
+                            <span class="price-unit">/ serv</span>
+                        </div>
+                        <button class="btn btn-outline btn-full select-service-btn" data-target-package="mudanza">Seleccionar Plan</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN POR QUÉ ELEGIRNOS -->
+        <section id="nosotros" class="why-us-section">
+            <div class="container">
+                <div class="why-us-wrapper">
+                    <div class="why-us-content">
+                        <span class="section-tagline">NUESTROS VALORES</span>
+                        <h2 class="section-title">¿Qué hace a Fresh Start tan especial?</h2>
+                        <p class="section-subtitle">
+                            Nos apasiona la limpieza y creemos firmemente que un ambiente ordenado mejora tu calidad de vida, tu concentración y tu salud.
+                        </p>
+                        
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                    </svg>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Personal de Absoluta Confianza</h4>
+                                    <p>Cada miembro de nuestro equipo pasa por un riguroso proceso de selección, verificación de antecedentes y capacitación constante.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22.27 20.01L19.74 3a2.68 2.68 0 00-2.62-2.25H6.88A2.68 2.68 0 004.26 3L1.73 20.01A2.69 2.69 0 004.35 23H19.65a2.69 2.69 0 002.62-2.99zM6.88 2.25h10.24a1.18 1.18 0 011.16 1L19.5 10H4.5l1.22-6.75a1.18 1.18 0 011.16-1z"/>
+                                    </svg>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Productos Eco-Responsables</h4>
+                                    <p>Utilizamos fórmulas biodegradables de alta efectividad que limpian profundamente sin verter toxinas en tu hogar ni dañar al medio ambiente.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/>
+                                    </svg>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Garantía de Satisfacción 100%</h4>
+                                    <p>Si no estás plenamente satisfecho con algún área limpia, avísanos dentro de las 24 horas y volveremos a limpiarla sin costo adicional.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="why-us-visual">
+                        <div class="visual-card">
+                            <div class="visual-circle-decor"></div>
+                            <div class="interactive-quote-preview">
+                                <p class="preview-title">"El mejor servicio que he contratado. Mi casa huele increíblemente fresca y el staff es súper educado."</p>
+                                <div class="preview-author">
+                                    <span class="author-avatar">👩‍💼</span>
+                                    <div>
+                                        <span class="author-name">Sofía Martínez</span>
+                                        <span class="author-location">Propietaria, Las Condes</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="decor-card decor-1">
+                                <span class="decor-icon">🧼</span>
+                                <span>Aroma a Lavanda</span>
+                            </div>
+                            <div class="decor-card decor-2">
+                                <span class="decor-icon">🌿</span>
+                                <span>Sin Químicos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN COTIZADOR INTERACTIVO (CORE) -->
+        <section id="cotizador" class="calculator-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">PRESUPUESTO INMEDIATO</span>
+                    <h2 class="section-title">Diseña tu plan a medida</h2>
+                    <p class="section-subtitle">
+                        Calcula el costo estimado de tu limpieza de forma transparente y sin compromiso. ¡Usa los controles y mira los precios cambiar al instante!
+                    </p>
+                </div>
+
+                <div class="calculator-grid">
+                    <div class="calculator-panel">
+                        <h3 class="panel-title">1. Detalles del Espacio</h3>
+                        
+                        <!-- Selección de Tipo de Limpieza -->
+                        <div class="form-group-custom">
+                            <label class="input-label-custom">Tipo de Limpieza</label>
+                            <div class="radio-tiles-group">
+                                <label class="radio-tile-label">
+                                    <input type="radio" name="calc-plan" value="express" class="radio-tile-input" checked>
+                                    <span class="radio-tile-content">
+                                        <span class="tile-icon">⚡</span>
+                                        <span class="tile-title">Express</span>
+                                    </span>
+                                </label>
+                                <label class="radio-tile-label">
+                                    <input type="radio" name="calc-plan" value="profunda" class="radio-tile-input">
+                                    <span class="radio-tile-content">
+                                        <span class="tile-icon">✨</span>
+                                        <span class="tile-title">Profunda</span>
+                                    </span>
+                                </label>
+                                <label class="radio-tile-label">
+                                    <input type="radio" name="calc-plan" value="mudanza" class="radio-tile-input">
+                                    <span class="radio-tile-content">
+                                        <span class="tile-icon">📦</span>
+                                        <span class="tile-title">Mudanza</span>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Habitaciones y Baños con Contadores Animados -->
+                        <div class="counters-row">
+                            <div class="counter-item-wrapper">
+                                <label class="counter-label">Habitaciones / Áreas</label>
+                                <div class="counter-control">
+                                    <button type="button" class="btn-counter btn-minus" id="rooms-minus" aria-label="Disminuir habitaciones">—</button>
+                                    <span class="counter-val" id="rooms-val">2</span>
+                                    <button type="button" class="btn-counter btn-plus" id="rooms-plus" aria-label="Aumentar habitaciones">+</button>
+                                </div>
+                            </div>
+                            
+                            <div class="counter-item-wrapper">
+                                <label class="counter-label">Baños</label>
+                                <div class="counter-control">
+                                    <button type="button" class="btn-counter btn-minus" id="bathrooms-minus" aria-label="Disminuir baños">—</button>
+                                    <span class="counter-val" id="bathrooms-val">1</span>
+                                    <button type="button" class="btn-counter btn-plus" id="bathrooms-plus" aria-label="Aumentar baños">+</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Servicios Extra Toggles -->
+                        <h3 class="panel-title gap-top">2. Servicios Adicionales</h3>
+                        <div class="extras-grid">
+                            <label class="extra-toggle-card">
+                                <input type="checkbox" name="extra-item" value="fridge" class="extra-checkbox">
+                                <span class="extra-card-content">
+                                    <span class="extra-icon">🧊</span>
+                                    <span class="extra-name">Refrigerador <small>+$15</small></span>
+                                </span>
+                            </label>
+                            
+                            <label class="extra-toggle-card">
+                                <input type="checkbox" name="extra-item" value="oven" class="extra-checkbox">
+                                <span class="extra-card-content">
+                                    <span class="extra-icon">🍳</span>
+                                    <span class="extra-name">Horno Interno <small>+$20</small></span>
+                                </span>
+                            </label>
+
+                            <label class="extra-toggle-card">
+                                <input type="checkbox" name="extra-item" value="windows" class="extra-checkbox">
+                                <span class="extra-card-content">
+                                    <span class="extra-icon">🪟</span>
+                                    <span class="extra-name">Ventanas <small>+$25</small></span>
+                                </span>
+                            </label>
+
+                            <label class="extra-toggle-card">
+                                <input type="checkbox" name="extra-item" value="ironing" class="extra-checkbox">
+                                <span class="extra-card-content">
+                                    <span class="extra-icon">👔</span>
+                                    <span class="extra-name">Planchado <small>+$20</small></span>
+                                </span>
+                            </label>
+                            
+                            <label class="extra-toggle-card">
+                                <input type="checkbox" name="extra-item" value="cabinet" class="extra-checkbox">
+                                <span class="extra-card-content">
+                                    <span class="extra-icon">🚪</span>
+                                    <span class="extra-name">Muebles de Cocina <small>+$15</small></span>
+                                </span>
+                            </label>
+                            
+                            <label class="extra-toggle-card">
+                                <input type="checkbox" name="extra-item" value="pets" class="extra-checkbox">
+                                <span class="extra-card-content">
+                                    <span class="extra-icon">🐾</span>
+                                    <span class="extra-name">Pelo de Mascotas <small>+$10</small></span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Visualización del Precio en Tiempo Real -->
+                    <div class="calculator-summary-panel">
+                        <div class="summary-content">
+                            <h3 class="summary-title">Tu Presupuesto Estimado</h3>
+                            
+                            <div class="price-visualizer">
+                                <span class="currency">$</span>
+                                <span class="price-number" id="realtime-price">0</span>
+                                <span class="usd">USD</span>
+                            </div>
+                            
+                            <div class="summary-divider"></div>
+                            
+                            <ul class="summary-details-list" id="summary-details-list">
+                                <!-- Se inyectará dinámicamente por JS -->
+                            </ul>
+                            
+                            <div class="summary-divider"></div>
+                            
+                            <div class="summary-badge">
+                                <span class="badge-dot"></span>
+                                Incluye productos de limpieza biodegradables
+                            </div>
+
+                            <a href="#contacto" class="btn btn-primary btn-lg btn-full" id="calc-apply-btn">
+                                Continuar con esta Reserva
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow-svg">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                            <p class="summary-note">El precio puede variar según las condiciones reales del lugar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN TESTIMONIOS -->
+        <section id="testimonios" class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">OPINIONES</span>
+                    <h2 class="section-title">La felicidad de nuestros clientes</h2>
+                    <p class="section-subtitle">
+                        Mira lo que dicen las familias y empresas que confían semanalmente sus espacios a Fresh Start.
+                    </p>
+                </div>
+
+                <!-- Filtros Interactivos de Testimonios -->
+                <div class="filter-tabs-container">
+                    <button class="filter-tab active" data-filter="all">Todos</button>
+                    <button class="filter-tab" data-filter="residencia">Hogares</button>
+                    <button class="filter-tab" data-filter="empresa">Oficinas</button>
+                    <button class="filter-tab" data-filter="profunda">Limpieza Profunda</button>
+                </div>
+
+                <!-- Grid de Testimonios -->
+                <div class="testimonials-grid" id="testimonials-grid">
+                    <!-- Testimonio 1 -->
+                    <div class="testimonial-card" data-category="residencia">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-quote">"El servicio Express es maravilloso para mantener el orden. El personal es puntual, discreto y sumamente detallista. ¡Recomendado totalmente!"</p>
+                        <div class="testimonial-user">
+                            <span class="user-avatar-text">V</span>
+                            <div class="user-info">
+                                <strong>Valeria Riquelme</strong>
+                                <span>Hogar Habitual, Galveston, TX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 2 -->
+                    <div class="testimonial-card" data-category="profunda">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-quote">"Contraté la limpieza profunda antes de que naciera mi hija. Limpiaron hasta el último rincón detrás de la cama y el refrigerador. Quedé súper tranquila."</p>
+                        <div class="testimonial-user">
+                            <span class="user-avatar-text">D</span>
+                            <div class="user-info">
+                                <strong>Daniela Silva</strong>
+                                <span>Limpieza Profunda, Beaumont, TX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 3 -->
+                    <div class="testimonial-card" data-category="empresa">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-quote">"Mantienen nuestras oficinas corporativas impecables. Los clientes siempre comentan el agradable aroma natural a frescura al ingresar."</p>
+                        <div class="testimonial-user">
+                            <span class="user-avatar-text">M</span>
+                            <div class="user-info">
+                                <strong>Manuel Fuentes</strong>
+                                <span>Director, Innova Tech</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonio 4 -->
+                    <div class="testimonial-card" data-category="residencia">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-quote">"Es un alivio inmenso llegar el viernes por la tarde y encontrar toda la casa limpia, oliendo a pino y lavanda. El staff es adorable con mis perritos."</p>
+                        <div class="testimonial-user">
+                            <span class="user-avatar-text">J</span>
+                            <div class="user-info">
+                                <strong>Juan Pablo Soto</strong>
+                                <span>Hogar Semanal, League City, TX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 5 -->
+                    <div class="testimonial-card" data-category="profunda">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-quote">"La limpieza post-remodelación fue titánica. Había polvo de yeso fino en las paredes y ventanas. Fresh Start lo dejó como nuevo en un solo día."</p>
+                        <div class="testimonial-user">
+                            <span class="user-avatar-text">C</span>
+                            <div class="user-info">
+                                <strong>Camila Vargas</strong>
+                                <span>Mudanza/Post-Obra, Texas City, TX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 6 -->
+                    <div class="testimonial-card" data-category="empresa">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-quote">"Profesionales, serios y flexibles. Requerimos servicios los fines de semana y se adaptaron sin problemas. Totalmente satisfechos."</p>
+                        <div class="testimonial-user">
+                            <span class="user-avatar-text">R</span>
+                            <div class="user-info">
+                                <strong>Roxana Delgado</strong>
+                                <span>Administradora, Dental Clinic</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PREGUNTAS FRECUENTES (FAQ ACCORDION) -->
+        <section class="faq-section">
+            <div class="container faq-container">
+                <div class="section-header">
+                    <span class="section-tagline">RESOLVEMOS TUS DUDAS</span>
+                    <h2 class="section-title">Preguntas Frecuentes</h2>
+                    <p class="section-subtitle">
+                        ¿Tienes dudas sobre cómo trabajamos? Aquí respondemos las preguntas más comunes de nuestros clientes.
+                    </p>
+                </div>
+
+                <div class="faq-accordion">
+                    <!-- FAQ 1 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Los productos de limpieza están incluidos en el costo?</span>
+                            <span class="faq-icon-arrow">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>¡Sí, por supuesto! En Fresh Start proporcionamos todos los insumos necesarios para la limpieza sin costo adicional. Todos nuestros productos son 100% biodegradables y seguros para niños y mascotas.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Es necesario que esté en casa durante la limpieza?</span>
+                            <span class="faq-icon-arrow">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>No es obligatorio. Muchos de nuestros clientes nos confían llaves o códigos de seguridad para que limpiemos mientras están trabajando. Todo nuestro personal ha sido rigurosamente verificado para tu absoluta tranquilidad.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Con cuánto tiempo de anticipación debo reservar?</span>
+                            <span class="faq-icon-arrow">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Te recomendamos agendar con al menos 48 horas de anticipación para asegurar disponibilidad del horario que más te convenga. En casos de urgencia, puedes llamarnos directamente para buscar una solución Express.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Qué ocurre si algún objeto de mi casa se daña?</span>
+                            <span class="faq-icon-arrow">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Tratamos tus pertenencias con el máximo cuidado, pero ante cualquier imprevisto, Fresh Start cuenta con una póliza de seguro de responsabilidad civil que cubre daños accidentales durante el desarrollo del servicio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE CONTACTO Y RESERVA -->
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info-panel">
+                        <span class="section-tagline color-white">RESERVA AHORA</span>
+                        <h2 class="contact-panel-title">Comienza tu Fresh Start hoy</h2>
+                        <p class="contact-panel-desc">
+                            Completa el formulario y uno de nuestros coordinadores se pondrá en contacto contigo de inmediato para confirmar el horario de tu servicio.
+                        </p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="detail-icon">📞</div>
+                                <div class="detail-text">
+                                    <strong>Llámanos</strong>
+                                    <span>409 454 8218</span>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="detail-icon">✉️</div>
+                                <div class="detail-text">
+                                    <strong>Escríbenos</strong>
+                                    <span>diana@freshstartcleaning.com</span>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="detail-icon">📍</div>
+                                <div class="detail-text">
+                                    <strong>Oficina Principal</strong>
+                                    <span>Galveston, Texas, EE. UU.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="booking-form-wrapper">
+                        <form id="booking-form" class="booking-form">
+                            <h3 class="form-title">Agendar Visita</h3>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="booking-name">Nombre Completo *</label>
+                                    <input type="text" id="booking-name" name="name" required placeholder="Ej: Diana Ramirez">
+                                </div>
+                                <div class="form-group">
+                                    <label for="booking-email">Correo Electrónico *</label>
+                                    <input type="email" id="booking-email" name="email" required placeholder="Ej: diana@correo.com">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="booking-phone">Teléfono / WhatsApp *</label>
+                                    <input type="tel" id="booking-phone" name="phone" required placeholder="Ej: 409-555-0199">
+                                </div>
+                                <div class="form-group">
+                                    <label for="booking-date">Fecha Deseada *</label>
+                                    <input type="date" id="booking-date" name="date" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="booking-address">Dirección del Servicio *</label>
+                                    <input type="text" id="booking-address" name="address" required placeholder="Ej: 123 Beach Blvd, Galveston, TX">
+                            </div>
+
+                            <!-- Resumen del Cotizador (Solo lectura, se actualiza automáticamente) -->
+                            <div class="form-summary-box">
+                                <span class="summary-box-title">Tu Cotización Seleccionada:</span>
+                                <div class="summary-box-grid">
+                                    <div>Plan: <strong id="form-summary-plan">Express</strong></div>
+                                    <div>Habitaciones: <strong id="form-summary-rooms">2</strong></div>
+                                    <div>Baños: <strong id="form-summary-bathrooms">1</strong></div>
+                                    <div>Extras: <strong id="form-summary-extras">Ninguno</strong></div>
+                                    <div class="summary-box-price">Total Estimado: <strong id="form-summary-total">$55 USD</strong></div>
+                                </div>
+                                <input type="hidden" id="hidden-plan" name="selected-plan" value="express">
+                                <input type="hidden" id="hidden-rooms" name="selected-rooms" value="2">
+                                <input type="hidden" id="hidden-bathrooms" name="selected-bathrooms" value="1">
+                                <input type="hidden" id="hidden-extras" name="selected-extras" value="">
+                                <input type="hidden" id="hidden-total" name="selected-total" value="55">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="booking-notes">Instrucciones Especiales / Comentarios</label>
+                                <textarea id="booking-notes" name="notes" placeholder="Ej: Tengo dos gatos, por favor usar la aspiradora HEPA. Tengo llaves con el conserje."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-lg btn-full" id="submit-booking-btn">Confirmar y Agendar Reservación</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER PREMIUM -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo-container logo-footer">
+                    <div class="logo-icon logo-icon-footer">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m11.32 11.32l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text-wrapper">
+                        <span class="logo-text color-white">Fresh <span class="logo-highlight">Start</span></span>
+                        <span class="logo-subtext">Diana Ramirez</span>
+                    </div>
+                </a>
+                <p class="footer-desc">Espacios impecables, mentes en paz. Los líderes en limpieza ecológica y desinfección residencial y corporativa.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="Facebook">📘</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">📸</a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">💼</a>
+                </div>
+            </div>
+
+            <div class="footer-links-group">
+                <div class="footer-links-col">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#nosotros">¿Por qué Nosotros?</a></li>
+                        <li><a href="#cotizador">Cotizador</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#servicios">Limpieza Express</a></li>
+                        <li><a href="#servicios">Limpieza Profunda</a></li>
+                        <li><a href="#servicios">Mudanzas y Post-Obra</a></li>
+                        <li><a href="#servicios">Oficinas y Tiendas</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4>Horarios</h4>
+                    <ul>
+                        <li>Lunes a Viernes: 8:00 - 19:00</li>
+                        <li>Sábados: 9:00 - 15:00</li>
+                        <li>Domingos: Cerrado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 Fresh Start. Todos los derechos reservados. Diseñado con amor en colores pastel.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Términos del Servicio</a>
+                    <a href="#">Política de Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL DE ÉXITO DE RESERVA -->
+    <div class="modal-overlay" id="success-modal">
+        <div class="modal-card">
+            <button class="modal-close" id="modal-close-btn" aria-label="Cerrar modal">&times;</button>
+            <div class="modal-icon-success">✓</div>
+            <h3 class="modal-title">¡Reserva Recibida con Éxito!</h3>
+            <p class="modal-desc">
+                Gracias, <strong id="modal-user-name">Usuario</strong>. Hemos agendado una solicitud para tu limpieza de tipo <strong id="modal-summary-plan">Express</strong>.
+            </p>
+            
+            <div class="modal-summary-box">
+                <div class="modal-summary-row">
+                    <span>Fecha Agendada:</span>
+                    <strong id="modal-summary-date">25/05/2026</strong>
+                </div>
+                <div class="modal-summary-row">
+                    <span>Dirección del servicio:</span>
+                    <strong id="modal-summary-address" class="text-right">Av. Las Condes 9850</strong>
+                </div>
+                <div class="modal-summary-row">
+                    <span>Áreas seleccionadas:</span>
+                    <strong id="modal-summary-detail">2 Habitaciones, 1 Baño</strong>
+                </div>
+                <div class="modal-summary-row price-row">
+                    <span>Presupuesto Estimado:</span>
+                    <strong id="modal-summary-price">$55.00 USD</strong>
+                </div>
+            </div>
+            
+            <p class="modal-instruction">Te enviaremos un correo y WhatsApp de confirmación dentro de los próximos 30 minutos.</p>
+            <button class="btn btn-primary btn-lg btn-full" id="modal-btn-confirm">Excelente, ¡Entendido!</button>
+        </div>
+    </div>
+
+    <!-- SCRIPT PRINCIPAL -->
+    <script src="app.js"></script>
+</body>
+</html>
