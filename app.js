@@ -356,36 +356,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    /* ==========================================================================
-       4. TESTIMONIOS: FILTRADO DINÁMICO
-       ========================================================================== */
-    const filterTabs = document.querySelectorAll('.filter-tab');
-    const testimonialCards = document.querySelectorAll('.testimonial-card');
-
-    filterTabs.forEach(tab => {
-        tab.addEventListener('click', (e) => {
-            // Remover clase activa de todos los tabs y agregar al seleccionado
-            filterTabs.forEach(t => t.classList.remove('active'));
-            e.target.classList.add('active');
-
-            const filterValue = e.target.getAttribute('data-filter');
-
-            // Filtrar testimonios
-            testimonialCards.forEach(card => {
-                const category = card.getAttribute('data-category');
-                
-                if (filterValue === 'all' || category === filterValue || (filterValue === 'profunda' && category === 'profunda')) {
-                    card.classList.remove('hidden');
-                } else {
-                    card.classList.add('hidden');
-                }
-            });
-        });
-    });
-
 
     /* ==========================================================================
-       5. ACORDEÓN DE PREGUNTAS FRECUENTES (FAQS TRANSICIÓN SUAVE)
+       4. ACORDEÓN DE PREGUNTAS FRECUENTES (FAQS TRANSICIÓN SUAVE)
        ========================================================================== */
     const faqQuestions = document.querySelectorAll('.faq-question');
 
@@ -417,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     /* ==========================================================================
-       6. FORMULARIO DE RESERVA & MODAL DE ÉXITO INTERACTIVO
+       5. FORMULARIO DE RESERVA & MODAL DE ÉXITO INTERACTIVO
        ========================================================================== */
     const bookingForm = document.getElementById('booking-form');
     const successModal = document.getElementById('success-modal');
